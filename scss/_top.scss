@@ -1,0 +1,65 @@
+.top{
+  height: 1057px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  width: 100%;
+  .wrap_top{
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header{
+    @extend %flex;
+    .nav-menu{
+      ul{
+        display: flex;
+        li{
+          margin-left: 30px;
+          a{
+          color: $ColorDark;
+          font-family: $Montserrat;
+          font-size: 14px;
+          font-weight: 400;
+          text-decoration: none;
+          text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+  .hero{
+    .hero__text{
+      h1{
+        @extend %title;
+        width: 510px;
+        font-size: 48px;
+        font-weight: 700;
+      }
+      span{
+        color: red;
+      }
+      p{
+        height: 21px;
+        color: #314a5b;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 26px;
+      }
+    }
+    button{
+      width: 171px;
+      height: 64px;
+      background-color: #fa5c65;
+      border:none;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: 700;
+      font-family: $Open-sans;
+      margin-top: 41px;
+    }
+  }
+}

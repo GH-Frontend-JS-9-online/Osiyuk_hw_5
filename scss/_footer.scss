@@ -1,0 +1,17 @@
+footer{
+  .footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-top: 1px solid #e6eaed;
+    display: flex;
+    align-items: center;
+    a{
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    p{
+      @extend %paragraph;
+    }
+  }
+}

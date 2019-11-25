@@ -1,0 +1,43 @@
+
+$ColorDark: #263742;
+$Montserrat: 'Montserrat', sans-serif;
+$Open-sans: '$Open-sans', sans-serif;
+$ColorGray: #314a5b;
+%flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+%title{
+  color: $ColorGray;
+  font-family: $Montserrat;
+  text-transform: uppercase;
+}
+%span{
+  color: #fa5c65;
+  font-family: $Montserrat;
+}
+.more{
+  @extend %span;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.wrap{
+  max-width: 950px;
+  margin:0 auto;
+}
+%paragraph{
+  color: #9aa0ab;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+@import './top';
+@import './snippets';
+@import './portfolio';
+@import './team';
+@import './footer';
+@import './media900';
+@import './media770';
+@import './media480';

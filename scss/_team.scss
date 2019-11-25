@@ -1,0 +1,40 @@
+.team{
+  margin-top: 80px;
+  height: 350px;
+  h2{
+    @extend %title;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  span{
+    @extend %span;
+    font-weight: 700;
+  }
+  p{
+    @extend %paragraph;
+    margin-top: 16px;
+  }
+  .wrap-team{
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-block{
+    margin-top: 40px;
+    display: flex;
+    .team-block__text{
+      align-self: center;
+      h3{
+        @extend %title;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      p{
+        width: 160px;
+      }
+    }
+  }
+  .more{
+    float: right;
+    margin-top: 67px;
+  }
+}

@@ -1,0 +1,24 @@
+@media (max-width: 900px){
+   .snippets{
+     .wrap-snippets{
+       .snippets-block{
+         margin-left: 5%;
+        P{
+          width: 200px;
+        }
+       }
+     }
+   }
+   .portfolio{
+     margin-left: 5%;
+   }
+   .team{
+     .team-block{
+       .team-block__text{
+         p{
+           width: 100px;
+         }
+       }
+     }
+   }
+}
